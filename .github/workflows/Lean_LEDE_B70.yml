@@ -12,8 +12,8 @@ on:
   release:
     types: published
   push:
-    branches:
-      - master
+    branches: 20200408
+   #   - master
     paths:
       - 'Lean_LEDE_B70.config'
   schedule:
