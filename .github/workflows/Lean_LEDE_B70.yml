@@ -12,8 +12,8 @@ on:
   release:
     types: published
   push:
-    branches: 20200408
-   #   - master
+    branches: 
+      - master
     paths:
       - 'Lean_LEDE_B70.config'
   schedule:
@@ -23,7 +23,7 @@ on:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_BRANCH: 20200408 #master
   CONFIG_FILE: Lean_LEDE_B70.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
