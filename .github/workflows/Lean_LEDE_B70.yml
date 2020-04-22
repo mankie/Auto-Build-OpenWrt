@@ -9,7 +9,6 @@
 name: Build Lean_LEDE_B70
 
 on:
-					  
   release:
     types: published
   push:
