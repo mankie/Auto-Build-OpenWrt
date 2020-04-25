@@ -9,8 +9,8 @@ on:
     paths:
       - 'Docker_OpenWrt_N1.config'
       - 'Docker_N1/**'
-  watch:
-    types: started
+#  watch:
+#    types: started
 
 #env:
 #  SSH_ACTIONS: true
