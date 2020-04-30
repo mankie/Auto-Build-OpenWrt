@@ -24,7 +24,7 @@ on:
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: 20200416 #master
+  REPO_BRANCH:  master #master 20200416
   CONFIG_FILE: Lean_LEDE_B70.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
@@ -93,7 +93,7 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
-        name: OpenWrt_bin
+        name: OpenWrt_B70
         path: openwrt/bin
 
     - name: Organize files
